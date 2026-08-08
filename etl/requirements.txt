@@ -1,0 +1,26 @@
+# ETL-specific dependencies
+# These extend the backend dependencies with geospatial data science tools
+
+# Geospatial data manipulation
+geopandas>=0.14.0
+fiona>=1.9.5
+pyproj>=3.6.0
+rtree>=1.2.0
+
+# Data manipulation
+pandas>=2.2.0
+numpy>=1.26.0
+
+# HTTP requests for HDX API
+requests>=2.31.0
+
+# Database
+psycopg2-binary>=2.9.9
+sqlalchemy>=2.0.30
+geoalchemy2>=0.15.0
+
+# Progress bars
+tqdm>=4.66.0
+
+# Configuration
+python-dotenv>=1.0.0

@@ -1,0 +1,65 @@
+# Project-Price: Palestine Land Valuation Platform
+
+## Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+*.egg-info/
+dist/
+build/
+.eggs/
+*.egg
+.venv/
+venv/
+env/
+
+# uv
+.python-version
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+
+# Environment
+.env
+.env.local
+.env.production
+
+# Node / Frontend
+node_modules/
+frontend/dist/
+frontend/.cache/
+*.log
+npm-debug.log*
+
+# Map Tiles (large binary files)
+frontend/public/tiles/*.pmtiles
+frontend/public/tiles/*.mbtiles
+*.pmtiles
+*.mbtiles
+
+# Raw ETL data (user-provided, not committed)
+etl/data/*
+!etl/data/.gitkeep
+
+# PostGIS Docker volume
+pgdata/
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# Test / Coverage
+.coverage
+htmlcov/
+.pytest_cache/
+
+# Alembic
+backend/alembic/versions/__pycache__/
+
+# Artifacts / scratch
+.gemini/

@@ -1,0 +1,29 @@
+# ETL Data Directory
+
+This directory contains raw spatial data files for import.
+
+**Contents are NOT committed to git** (see .gitignore).
+
+## Expected Directory Structure
+
+```
+etl/data/
+├── ocha_hdx/
+│   ├── oslo_accords_areas.shp
+│   ├── oslo_accords_areas.shx
+│   ├── oslo_accords_areas.dbf
+│   └── oslo_accords_areas.prj
+├── geomolg/
+│   ├── nablus_master_plan.shp
+│   ├── nablus_master_plan.shx
+│   ├── nablus_master_plan.dbf
+│   └── nablus_master_plan.prj
+└── comps/
+    └── nablus_comps_2024.csv
+```
+
+## Data Sources
+
+- **OCHA HDX**: Download from https://data.humdata.org/dataset/oslo-accords-areas-west-bank
+- **GeoMOLG**: Manual export from ArcGIS (see geomolg_etl_runbook.md)
+- **Comps**: Verified market transactions from real estate agents
